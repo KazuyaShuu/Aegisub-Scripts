@@ -10,6 +10,7 @@ function change_diacritics(subs, sel, active)
 			line.text = line.text:gsub("ã", "ă")
 			line.text = line.text:gsub("º", "ș")
 			line.text = line.text:gsub("þ", "ț")
+			line.text = line.text:gsub("Ã", "Ă")
 			line.text = line.text:gsub("ª", "Ș")
 			line.text = line.text:gsub("Þ", "Ț")
 			subs[i] = line
